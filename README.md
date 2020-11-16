@@ -37,10 +37,15 @@ In interactive mode move with ARROWS, make moves with SPACE and golden move with
 In batch mode, program accepts commands:
 
 `m player x y` – calling function gamma_move,
+
 `g player x y` – calling function gamma_golden_move,
+
 `b player` – calling function gamma_busy_fields,
+
 `f player` – calling function gamma_free_fields,
+
 `q player` – calling function gamma_golden_possible,
+
 `p` – calling function gamma_board.
 
 Every invalid command is followed with information about error. From batch mode it is still possible to access interactive mode.
