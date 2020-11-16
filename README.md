@@ -2,7 +2,7 @@
 
 Gamma is a simple terminal game taking place on a rectangle board.
 
-# Rules
+### Rules
 
 Board is splited into fields. Main target for every player is to obtain as many fields as possible.
 Adjacent fields belonging to player create area. Each player can only own some specified maximum number of areas (it is one of the game parameters).
@@ -11,7 +11,7 @@ Move can be made only onto free fields (not belonging to anybody). Every player 
 Move cannot be made if it would add new area above limit or split another player's areas creating additional area above limit.
 Game ends when nobody can make move anymore (all fields are busy or every next move violates areas limit).
 
-# Game start
+### Game start
 
 Program containing gamma game works in 2 modes:
 1) batch
@@ -28,11 +28,11 @@ to enter interactive mode
 These commands are creating new game calling function gamma_new. 
 In interactive mode after successful creation board will appear whereas in batch mode it will be confirmed by prompt "OK line_num".
 
-# Interactive mode
+### Interactive mode
 
 In interactive mode move with ARROWS, make moves with SPACE and golden move with G. To exit game click Ctrl-D. 
 
-# Batch mode
+### Batch mode
 
 In batch mode, program accepts commands:
 
@@ -51,7 +51,7 @@ In batch mode, program accepts commands:
 Every invalid command is followed with information about error. From batch mode it is still possible to access interactive mode.
 To exit game click Ctrl-D. 
 
-# Compilation
+### Compilation
 
 On Linux compile with commands (after moving to project directory):
 ```sh
