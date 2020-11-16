@@ -18,8 +18,10 @@ Program containing gamma game works in 2 modes:
 2) interactive
 
 At the begining program expects one of two commands:
+
 `sh
 B width height players areas` to enter batch mode or
+
 `sh
 I width height players areas` to enter interactive mode
 
