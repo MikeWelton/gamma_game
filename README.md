@@ -18,12 +18,10 @@ Program containing gamma game works in 2 modes:
 2) interactive
 
 At the begining program expects one of two commands:
-```sh
-B width height players areas
-to enter batch mode or
-I width height players areas
-to enter interactive mode
-```
+`sh
+B width height players areas` to enter batch mode or
+`sh
+I width height players areas` to enter interactive mode
 
 These commands are creating new game calling function gamma_new. 
 In interactive mode after successful creation board will appear whereas in batch mode it will be confirmed by prompt "OK line_num".
